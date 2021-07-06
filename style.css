@@ -3,28 +3,9 @@ body{
    margin: 0;
    
 }
-.changing-text-color{
-    color: firebrick;
-}
-h1{
-    color: rgba(44, 40, 40, 0.788);
-    font-weight: 700;
-}
-.header-dev-width p{
-    color: rgba(44, 40, 40, 0.51);
-}
-.both-order-food-contact-btn{
-    line-height: 6em;
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(90deg ,firebrick,tomato);
-    padding: 10px;
-    border-radius: 30px;
-
-}
 .header-section{
-   
-    display: flex;
+   display: flex;
+   background-image: linear-gradient(85deg,firebrick,rgb(27, 7, 7));
 }
 .header-dev-width{
     width: 50%;
@@ -34,6 +15,28 @@ h1{
     width: 60%;
    
 }
+h1{
+    color: rgba(44, 40, 40, 0.788);
+    font-weight: 700;
+}
+.header-dev-width p{
+    color: rgba(243, 160, 160, 0.51);
+}
+.changing-text-color{
+    color: rgb(240, 191, 102);
+}
+
+.both-order-food-contact-btn{
+    line-height: 6em;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(90deg ,firebrick,tomato);
+    padding: 10px;
+    border-radius: 30px;
+
+}
+
+
 .about-section{
     background-image: url(shape/backgraound.jpg);
     background-repeat: no-repeat;
@@ -75,30 +78,37 @@ h1{
     font-weight: 700;
     text-align: center;
 }
-.my-recipies-part{
-    display: flex;
-}
+
 .my-recipies-part{
     display: flex;
     margin-left: 3%;
-    margin-top: 2%;
+    padding-left: 2px;
+    
 }
 .recipies-item img{
     width: 80%;
     padding: 9%;
+   
 
 }
 .recipies-item{
-    box-shadow: 10px 10px 5px 10px rgba(170, 166, 166, 0.598);
+    box-shadow: 10px 5px 8px 10px rgba(170, 166, 166, 0.598);
     width: 25%;
     margin-left: 6%;
     border: 7 solid;
     border-radius: 20px;  
 
 }
-.recipie-title-and-detail{
-    padding-left: 9%;
+.recipie-title{
+   padding: 0 33px 10px;
+   margin-bottom: 0;
 }
+.recipie-detail{
+    padding: 0 33px 15px;
+    margin-top: 0;
+   
+ }
+
 .footer-background{
    
     background-image: linear-gradient(firebrick,black);
