@@ -1,6 +1,6 @@
 body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+   margin: 0;
+   
 }
 .changing-text-color{
     color: firebrick;
@@ -9,8 +9,8 @@ h1{
     color: rgba(44, 40, 40, 0.788);
     font-weight: 700;
 }
-.header-text-width p{
-    color: rgba(44, 40, 40, 0.596);
+.header-dev-width p{
+    color: rgba(44, 40, 40, 0.51);
 }
 .order-food-btn{
     line-height: 6em;
@@ -22,13 +22,51 @@ h1{
 
 }
 .header-section{
+    font-family: 'Poppins', sans-serif;
     display: flex;
 }
-.both-header-about-dev-width{
+.header-dev-width{
     width: 50%;
-    padding: 20px;
-    margin: 20px;
+    margin: 30px 30px 30px 50px;
 }
-.both-header-about-dev-width img{
+.header-dev-width img{
+    width: 60%;
+   
+}
+.about-section{
+    background-image: url(shape/7.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 30px 30px 30px 50px;
+   
+    
+   
+}
+.about-dev-img-width{
+    width: 50%;
+    padding: 2%;
+    text-align: center;
+   
+
+}
+.about-dev-img-width img{
+    width: 50%;
+    margin: 2%;
+  
+}
+.about-dev-width{
+    width: 50%;
+    padding: 2%;
+    margin: auto;
+}
+#about-me-text-style{
+    color: rgba(44, 40, 40, 0.734);
+    font-family: 'Poppins', sans-serif;
     width: 80%;
+    font-weight: 400
+}
+.both-about-recipe-title-style{
+    font-family: 'Arimo', sans-serif;
+    color: rgba(0, 0, 0, 0.503);
+    font-weight: 700;
 }
