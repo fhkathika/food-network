@@ -17,7 +17,7 @@ h1{
     line-height: 6em;
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(firebrick,tomato);
+    background-image: linear-gradient(90deg ,firebrick,tomato);
     padding: 10px;
     border-radius: 30px;
 
@@ -98,4 +98,15 @@ h1{
 }
 .recipie-title-and-detail{
     padding-left: 9%;
+}
+.footer-background{
+   
+    background-image: linear-gradient(firebrick,black);
+    background-repeat: no-repeat;
+    padding: 10px;
+    text-align: center;
+   
+}
+.conclusion{
+    color: rgba(147, 140, 140, 0.639);
 }
